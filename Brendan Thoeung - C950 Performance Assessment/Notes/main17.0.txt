@@ -1,0 +1,7 @@
+Found out the issue causing packages to not be delivered. When going through the for-loop, it doesn't account for new packages coming in, so the for loop doesn't adjust to the new length of the list. To fix this, I changed the for-loop to a while loop,
+and used while the list length is greater than 0, continue. By doing so, all packages were able to be delivered,
+including new ones that arrived late, and added during delivery route.
+
+Program is functioning as intended. Need to continue fulfilling a few more conditions for project all the while making sure
+packages are still being delivered on time with these changes. Currently, all packages are being delivered on time, with the last
+package with a delivery deadline hardly making the deadline cutoff by 3 minutes.

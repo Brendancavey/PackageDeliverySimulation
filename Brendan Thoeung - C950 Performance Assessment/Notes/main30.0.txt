@@ -1,0 +1,17 @@
+Fixed a majority of the issue. Updated package status dictionary from packages delivered from truck2 when truck3
+iterates. So now majority of packages are showing correct information. Found packagse showing on route or delivered
+when they should be delivered. 
+
+Packages 35 showing on route by 8:30 but doesn't leave hub until 9:54
+
+Package 33 Showing delivered by 8:30 but doesnt leave hub until 9:54 
+
+package 9 showing delivered by 8:30 but doesnt leave hub until 9:54
+
+package 39 showing delivered by 8:30 but doesn't leave hub until 9:54
+
+truck1: [package1, package29, package30, package31, package34, package37, package40, package2, package20, package19, package16, package15, package14, package13, package4, package5]
+
+truck2: [package7, package38, package36, package18, package3, package8, package10, package11, package12, package17, package21, package22, package23, package24, package26, package27]
+
+truck3: [package33, package9, package35, package39]

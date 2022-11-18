@@ -1,0 +1,12 @@
+Solved the edge case where times before first delivery - 8:06 and after 8am are now showing proper packages on route
+
+Discovered more issues where certain times are show select packages are at hub when they should be on route. Most likely
+capturing package status at delivery time are not updating properly. 8:30, 9:30 are times showing wrong information. I'm
+sure there are more.
+
+Need to take into consideration delivery times of packages on truck1. Since there are no previous iterations before
+truck1, package statuses captured does not reflect future deliveries on on the next iteration. Need to take account
+these considerations to simulate real time since truck1 and 2 "leave the hub at the same time".
+
+Fixed the issue above, but seeing the same issues happening for truck 2, where packages delivered from truck 2 don't know
+that status of truck3 yet at the time of delivery.

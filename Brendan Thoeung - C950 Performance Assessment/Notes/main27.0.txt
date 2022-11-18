@@ -1,0 +1,8 @@
+Solved majority of issues including issues in main21.0
+It was caused by capturing the snapshot of the last package delivered. Since last package delivered
+was done on truck2, the program hasnt been able to capture the status of items on truck3. By updating
+the package status dictionary of the last package delivered one last time after all packages have
+been delivered including truck3, It was able to solve the issue.
+
+However found an edge case issue. Inserting times before the first delivery - 8:06 shows all packages still at hub
+even when delivery trucks depart at 8:00. Need to show packages were on route between the times of 8:06 and 8:00

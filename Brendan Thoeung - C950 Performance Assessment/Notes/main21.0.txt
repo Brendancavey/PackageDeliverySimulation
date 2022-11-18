@@ -1,0 +1,30 @@
+Started to create interface. While testing, found more bugs, and im crying. Packages that were delivered from
+truck 3 are showing as delivered when they should be at hub. Same with some packages from truck2. All packages showing delivered
+at times when they should be something else:
+
+6, 9, 25, 28, 32, 33, 35, 39
+
+6 - condition attached delivered by truck 2 at 10:13am
+
+9 - condition attache ddelivered by truck 3 at 10:39am
+
+25- conditions attached delivered by truck 2 at 9:41am
+
+28 - conditions attached delivered by truck 2 at 9:58am
+
+32 - no conditions delivered by truck 2 at 10:08am
+
+33 - no conditions delivered by truck 3 at 10:03am
+
+35 - no conditions delivered by truck 3 at 10:24am
+
+39 - no conditions delivered by truck 3 at 10:29am
+
+packages 6, 25, 28, 32, should be considered at hub until picked up by truck2 sometime after 9:05 am when the packages "arrive"
+
+packages 9, 33, 35, 39 should be considered at hub until truck 3 takes off at 9:54am, where then they'll be considered on route
+until delivered.
+
+
+
+Other than that, started to create interface. 

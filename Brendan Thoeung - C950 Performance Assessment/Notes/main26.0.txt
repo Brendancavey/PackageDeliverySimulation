@@ -1,0 +1,5 @@
+Almost finished with interface. Just need to account for fail-safe conditions so that user can't enter
+invalid inputs. Implemented some fail-safe conditions but doesnt count for all of them. I don't know if its
+necessary.
+
+Still need to solve problems from main21.0

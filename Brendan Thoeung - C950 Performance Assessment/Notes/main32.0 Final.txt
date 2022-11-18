@@ -1,0 +1,5 @@
+Cleaned up a lot of code. Removed unnessary blocks of code that was used for the first delivery status method. No longer using
+that. Formatted somewhat to make the code more readable. Left in some debugging comments just in case evaluators want to see
+my thought process. 
+
+Program still functions as expected and fulfils all conditions. Just need to write the paper

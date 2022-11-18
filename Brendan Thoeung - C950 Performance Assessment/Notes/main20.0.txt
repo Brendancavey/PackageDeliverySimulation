@@ -1,0 +1,13 @@
+Packages that were showing on route were not being updated due to the final package delivery time on the last truck iteration
+not surpassing packages that were delivered on the previous iteration delivery times, so the loop never got around
+to addressing those times. To fix this, I had to create another for-loop going through the entire list of packages, and comparing
+the delivery times again to verify if the current time is less than the delivery time. Since we know that truck 3 leaves before
+truck2 returns, then we only need to satisfy this condtion on truck 3.
+
+Packages on truck3 on the delivery dictionary were be able to be fixed by keeping track of a global variable
+called last package deliverey time. Last package delivered gets updated each time a package with a delivery time
+higher than the previous package last package delivery time gets delivered. By returning this variable from the function,
+i can keep track of all packages that were supposed to be delivered by a certain time, and that covers the edge cases
+for packages showing up incorrectly on the delivery status dictionary.
+
+Program is now funcitoning as intended. All conditions met and satisfied. All thats left is to create cli, and clean up code.

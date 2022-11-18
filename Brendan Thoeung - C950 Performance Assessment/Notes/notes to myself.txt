@@ -1,0 +1,35 @@
+If we can load all of the packages that have a deadline into truck 1, then it can be the first to depart the hub.
+
+since there are two drivers, then truck1 and truck2 can leave the hub at the same time. Maybe incorporate a condition
+where the trucks cannot depart unless the truck contains a driver.
+
+
+
+So nested dictionaries didnt work where updating the value dictionary would overwrite all previous entries.
+
+Discovered however that when overwriting a dictionary with a completely new dictinary, previous entries did not get
+overwritten. So What if i created new dictionaries for each key. I could do this initializing each package with
+an empty dictionary, and when it get delivered, the snapshot of all other package status gets saved into the delivered
+package dictionary.
+
+
+I need to find ways to optimize my program. For instance ive been using nested for loops to find naive solutions 
+without even realizing or thinking twice about better optimal solutions. I can definitely use python built in findmax
+function rather than use nested for loops.
+	
+	Instead of looping through a list to find the matching delivery address for a vertex address each time I need to
+make this comparison...I should probably just use a dictionary or use the hashtable i made... lol. That way It's not O(n) 
+every time I have to find the matching vertex address, it would be O(1) for search. The only time it would be O(n) is when
+I first place the entries into the dictionary or hashtable.
+
+	I should also use python min() method to find smallest value in a list instead of using nested for loops when trying
+to find the shortest path between different verticies...lol. Probably faster methods out there, but at least it won't be O(n^2),
+each time I need to find the shortest path, and it would be O(n)
+
+Instead of placing all times of the day in the dictiory, how about I just copy the status of the previous delivery for any times
+inserted between the last delivery and the next delivery... lol
+
+Noticed I reuse a lot of the same code to satisfy different conditions. I should make these blocks of codes into functions.
+For instance updating queue of unvisited verticies.
+
+One way to optimize the code is by implementing a priority queue where packages with delivery deadlines get delivered first. Do this instead of placing all packages with deadlines into the first truck.

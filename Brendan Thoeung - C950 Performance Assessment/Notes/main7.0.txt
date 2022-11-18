@@ -1,0 +1,2 @@
+Discovered unoptimized solution to nearest neighbor algorithm. Able to get close to required 140miles total distance travelled,
+but the algorithm runs at O(n^2)

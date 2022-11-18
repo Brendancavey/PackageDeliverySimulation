@@ -1,0 +1,18 @@
+Found out I can store multiple return values in subsequent variables by returning a tuple of the data I want to return, and
+placing the subsequent variables one after another on the function call. 
+I dont have to call a function multiple times in order to get different information...-__- dumb mistake. 
+
+Added a look up delivery time function where it returns all packages that were delivered at a specific time
+by which driver and by which truck.
+
+Also added changes to package where package can keep track of its delivery driver and delivery truck to reflect changes above.
+
+I added that function to make it easier to see if all time entries in delivery_status up to a certain delivery time should be the same..
+since package delivery is updated at the time of a package delivery
+
+Attempted to make the change of package_status for each truck as it enters the function call sequentially, and made
+comparisons by time. (i.e if package1 was delivered by truck1 at 9am, then the status of package1 would still be on route if the current time is 8:30am on truck2). It seemed for the most part it was working, but now package_status doesn't seem
+to capture delivered items - it's only capturing items that are on route or at the hub. Strange..
+
+
+

@@ -1,0 +1,6 @@
+
+Need to take into consideration delivery times of packages on truck1. Since there are no previous iterations before
+truck1, package statuses captured does not reflect future deliveries on on the next iteration. Need to take account
+these considerations to simulate real time since truck1 and 2 "leave the hub at the same time".
+
+Fixed the issue above by changing the look up time function to not include package delivery status from truck1, but to instead skip ahead to the next or previous delivery done by truck2 But now seeing the same issues happening for truck 2, where packages delivered from truck 2 don't know that status of truck3 yet at the time of delivery.

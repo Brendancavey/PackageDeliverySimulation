@@ -1,0 +1,5 @@
+Submitted project for evaluation. Revised some condtions where showing packages at given time no longer just shows
+package status, but also all package information such as delivery deadline, weight, delivery addresss, ect. 
+
+Added the condition for package 9 where package 9 delivery address updates at 10:20am. Although this occurs during delivery
+process, I made it so the look up function alow reflect this change.
