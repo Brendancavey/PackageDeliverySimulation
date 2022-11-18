@@ -1,1 +1,0 @@
-added naive algorithm to deliver packages in trucks. Attempted nearest neighbor, but ended up with a naive solution

@@ -1,9 +1,0 @@
-Noticed package 9 whos package delivery address was supposed to be updated after 10:20am was being delivered
-before 10:20. So made changes to make sure package 9 was not added onto the normal list of delivery packages until
-after 10:20am when the delivery driver gets the information for the correct delivery address.
-
-Added a a boolean value to the package class to check if addresses that need correcting have been updated.
-
-Issues to the delivery_status dictionary are still present where packages are showing not delivered when they are. In
-addition, some packages that were delivered are now showing "on route" as their status on the look up function. I am
-thinking this is due to truck2 being the last truck to arrive back at hub. Need to check for cases for this instance.

@@ -1,5 +1,0 @@
-Managed to get a total of 136 miles distance travelled, which is below 140 requirement so that is good. Added
-datetime functionality that keeps track of time of package delivered, and verified manually that packages with
-delivery deadlines are being delivered on time by loading those packages first in the first truck. Having trouble currently,
-placing into a dictionary the status of all packages at a given time - when printing out the dictionary, its showing
-inaccurate information.

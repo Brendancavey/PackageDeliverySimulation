@@ -1,8 +1,0 @@
-After commenting out the for loop that copies all of the times inbetween deliveries as the last previous delivery status,
-I managed to find the bug that was causing the delivered packages to not show in the delivery status. After making
-that adjustment, the function is working as expected.
-
-However, now I need to find a way to comment back in the function that copies the delivery status of in between deliveries since
-thats required for the completion of the project. After commenting back in what I had, more logical errors occurs where
-packages status that should be equaling each other are not equaling each other, and package delivery statuses for 
-some packages at the end of delivery route are still showing not delivered.

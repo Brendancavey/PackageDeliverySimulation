@@ -1,5 +1,0 @@
-All conditions fulfilled. All packages delivered on time. Verified and checked.
-
-But now, some packages are saying they haven't been delivered in the delivery status dictionary. I checked previous times,
-and some of the packages say they were "on route" as expected, and "devliered" as expected at the time of delivery, but times
-afterwards claim they are "at the hub"

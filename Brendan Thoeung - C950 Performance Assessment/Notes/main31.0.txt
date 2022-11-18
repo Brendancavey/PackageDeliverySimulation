@@ -1,8 +1,0 @@
-I said screw it to how I was trying to capture delivery times. Instead, I made a function outside of the delivery,
-and compared timestamps to each package. If the timestamp is less than or greater than the compared time stamp, then mark the delivery status.
-
-It seems to be working. Satisfying the conditions need to be met.
-
-met conditions. Omg it works... -_- i could have saved so much time and headache doing it this way.
-
-Program is functioning as expected. With all conditions met. Just need to clean up code.

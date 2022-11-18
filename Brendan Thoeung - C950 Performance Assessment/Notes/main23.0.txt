@@ -1,9 +1,0 @@
-Cleaned up some code. 
-
-Removed some redundant code in the delivery algorithm such as updating time, finding shortest path, and loading
-packages into unvisited verticies queue. I put each function into their own separete function and called them when
-needed in to delivery algorithm function. Left the comments of the previous version just in case.
-
-Tried putting big functions into their own module. Too much of a headache to deal with, reverted back. 
-
-Issues still present from v21.0. Will deal with tomorrow.

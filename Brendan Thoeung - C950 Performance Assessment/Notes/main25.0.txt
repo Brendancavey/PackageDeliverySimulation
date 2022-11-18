@@ -1,6 +1,0 @@
-Tried all day to implement dijkstra's. No luck converting what I have to work with it. Wasted too much time already. Reverting
-back to previous save and continuing from there. 
-
-Implemented more interface and added delivery address as a method of looking up packages.
-
-Issues for delivery status in the delivery_dictionary still present. Refer to notes from main21.0

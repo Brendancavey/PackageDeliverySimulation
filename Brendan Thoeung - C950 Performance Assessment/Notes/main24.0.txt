@@ -1,4 +1,0 @@
-Trying to implement a greedy algorithm for the heck of it. Just want to know how low can I get the total distance
-travelled. 
-
-its not working properly.. its 2am im sleepy zzz

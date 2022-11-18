@@ -1,5 +1,0 @@
-Did some optimization. Made package delivery address and location address into a dictionary so I dont have to iterate 
-through the location address to make the comparison every time it needs to. It only needs to do it once to implement
-the dictionary. So now the program is running much faster.
-
-Previous issues are still present. See notes from the previous save

@@ -1,9 +1,0 @@
-Realized I don't need to add every single minute of the day into the dictionary. I just needed to make a function
-where it checks to see if the given time the user wants to check for is in between the previous delivery time, and the
-next delivery time. If so, then just return the previous delivery time since the package status remains the
-same in between delivery times. 
-
-Then made sure to check for edge cases such as after the last package delivered, and before the first package delivered.
-
-Program is now functioning as expected. All thats left is to satisfy the special project conditions, clean up the code, and create
-a user friendly CLI. And if I want to, optimize the solution.

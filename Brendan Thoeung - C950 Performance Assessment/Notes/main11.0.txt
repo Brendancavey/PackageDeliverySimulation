@@ -1,9 +1,0 @@
-Found out when trying to incorporate a nested dictionary and updating the value of the nested dictionary, all subsequent values
-are updated as well - so that doesn't work. I instead managed to incorporate a nested list within a dictionary. So a list of lists
-as the value of a dictionary key. The nested list holds the package and delivery status of that package. The dictionary uses
-the time as the key. So far, this works with 1 truck. I have yet to try with all 3 trucks...
-
-Also did some cleanup of code. Simplified some long expressions into simple to read variables. Updated hashtable search function
-to return the value of the key and not just the index of the item.
-
-Updated Truck and Driver to have designated departure and return times.
