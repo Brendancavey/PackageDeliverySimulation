@@ -1,4 +1,4 @@
-###First Name: Brendan||||Last Name: Thoeung||||Student ID: 007494550
+###Author: Brendan Thoeung
 
 import math
 import csv
@@ -635,8 +635,8 @@ def open_package_data(file_name):
 
 
 ##########OPENING PACKAGE AND DISTANCE FILES############################################
-open_distance_data("WGUPS Distance Table.csv.csv")
-open_package_data("WGUPS Package File.csv.csv")
+open_distance_data("Distance Table.csv")
+open_package_data("Package File.csv")
 
 
 ##########################LOADING LOCATION DICTIONARY###################

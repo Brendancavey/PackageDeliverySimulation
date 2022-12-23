@@ -1,4 +1,4 @@
-###First Name: Brendan||||Last Name: Thoeung||||Student ID: 007494550
+###Author: Brendan Thoeung
 
 class Truck:
     def __init__(self,truck_id, driver, departure_time):

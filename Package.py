@@ -1,5 +1,4 @@
-###First Name: Brendan||||Last Name: Thoeung||||Student ID: 007494550
-
+###Author: Brendan Thoeung
 from datetime import datetime
 class Package:
     def __init__(self, id, delivery_address, delivery_city, delivery_zipcode, delivery_deadline, package_weight, delivery_status):

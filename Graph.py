@@ -1,6 +1,5 @@
-###First Name: Brendan||||Last Name: Thoeung||||Student ID: 007494550
+###Author: Brendan Thoeung
 
-#Assistance zybooks and c950 webinar3
 
 class Graph:
     def __init__(self):
